@@ -43,7 +43,7 @@ function submit() {
     console.log(marker1.getPosition().lng())
     console.log($('#crop').val())
     $.ajax({
-        url: 'https://automata-agri.herokuapp.com/?lat=' + marker1.getPosition().lat() + '&lng=' + marker1.getPosition().lng() + '&crop=' + $('#crop').val(),
+        url: 'https://bhoomi-api.herokuapp.com/?lat=' + marker1.getPosition().lat() + '&lng=' + marker1.getPosition().lng() + '&crop=' + $('#crop').val(),
         beforeSend: function () {
             $('#select').fadeOut()
             $('#loader').fadeIn()
