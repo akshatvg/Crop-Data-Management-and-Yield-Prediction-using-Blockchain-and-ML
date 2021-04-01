@@ -1,35 +1,40 @@
-# Repo Name
+# Bhoomi
 
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/<Repo>?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/<Repo>?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/<Repo>?style=social)](https://github.com/akshatvg/<Repo>/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/<Repo>?style=social&logo=git)](https://github.com/akshatvg/<Repo>/network)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/akshatvg/Crop-Data-Management-and-Yield-Prediction-using-Blockchain-and-ML?logo=github&style=social)](https://github.com/akshatvg/) [![GitHub last commit](https://img.shields.io/github/last-commit/akshatvg/Crop-Data-Management-and-Yield-Prediction-using-Blockchain-and-ML?style=social&logo=git)](https://github.com/akshatvg/) [![GitHub stars](https://img.shields.io/github/stars/akshatvg/Crop-Data-Management-and-Yield-Prediction-using-Blockchain-and-ML?style=social)](https://github.com/akshatvg/Crop-Data-Management-and-Yield-Prediction-using-Blockchain-and-ML/stargazers) [![GitHub forks](https://img.shields.io/github/forks/akshatvg/Crop-Data-Management-and-Yield-Prediction-using-Blockchain-and-ML?style=social&logo=git)](https://github.com/akshatvg/Crop-Data-Management-and-Yield-Prediction-using-Blockchain-and-ML/network)
 
-Project description comes here.
+With this project, we hope to help solve the problems faced during farming and help the farmers, government and consumer by highlighting the advantages of using Machine Learning to predict crop yield and present an alternate supply chain by using block chain and decentralized the entire process.
 
 <p align="center">
 <a href="#!">
-<img src="https://github.com/akshatvg/<Repo>/blob/master/Assets/app-icon-64%402x.png" width="120px" height="120px" alt="<Repo> Logo"/>
+<img src="img/logo.png" width="45px" alt="Bhoomi Logo"/>
 </a>
 </p>
 
-![Generic badge](https://img.shields.io/badge/Random-Swag-orange) 
+![Generic badge](https://img.shields.io/badge/Bhoomi-AgroTech-orange) 
 
-#### Link for [demo](#!) 
-[![Generic badge](https://img.shields.io/badge/view-demo-orange)](#!)
+[![Generic badge](https://img.shields.io/badge/view-frontend-purple)](https://bhoomi.akshatvg.com)
+[![Generic badge](https://img.shields.io/badge/view-backend-blue)](https://bhoomi-api.herokuapp.com/)
 
-## Useful Links
+## Tech Stack
+The source code of this project is written in **`HTML/CSS/JS`**, **`Flask (Python)`** and **`Node.js`**. 
 
-- [Actual Website](#!)
+## Instructions to run frontend
+```bash
+$ git clone https://github.com/akshatvg/Crop-Data-Management-and-Yield-Prediction-using-Blockchain-and-ML
+$ cd Crop-Data-Management-and-Yield-Prediction-using-Blockchain-and-ML
+$ git checkout master
+$ npm i
+$ live-server
+```
 
-## Requirements
-
-[![GitHub top language](https://img.shields.io/github/languages/top/akshatvg/<Repo>?logo=javascript&style=social)](https://github.com/akshatvg/)
-
-The source code of this project is written in **`HTML/CSS/JS`**. So, you do not require anything extra to run this project.
-
-## Instructions
-
-[![chrome](https://img.shields.io/badge/Open-index.html-lightgrey.svg?logo=google-chrome&style=popout&logoColor=red)](#!)
-
-Extract the folder and run `index.html`
+## Instructions to run backend
+```bash
+$ git clone https://github.com/akshatvg/Crop-Data-Management-and-Yield-Prediction-using-Blockchain-and-ML
+$ cd Crop-Data-Management-and-Yield-Prediction-using-Blockchain-and-ML
+$ git checkout backend
+$ pip3 install -r requirements.txt
+$ python3 app.py
+```
 
 
 ## Need help?
@@ -78,9 +83,9 @@ ______      _               _   _               _
 
 ## License
 
-**MIT &copy; [Akshat Gupta](https://github.com/akshatvg/<Repo>/blob/master/LICENSE)**
+**MIT &copy; [Akshat Gupta](https://github.com/akshatvg/Crop-Data-Management-and-Yield-Prediction-using-Blockchain-and-ML/blob/master/LICENSE)**
 
-[![GitHub license](https://img.shields.io/github/license/akshatvg/<Repo>?style=social&logo=github)](https://github.com/akshatvg/<Repo>/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/akshatvg?style=social)](https://twitter.com/akshatvg)
+[![GitHub license](https://img.shields.io/github/license/akshatvg/Crop-Data-Management-and-Yield-Prediction-using-Blockchain-and-ML?style=social&logo=github)](https://github.com/akshatvg/Crop-Data-Management-and-Yield-Prediction-using-Blockchain-and-ML/blob/master/LICENSE) [![Twitter Follow](https://img.shields.io/twitter/follow/akshatvg?style=social)](https://twitter.com/akshatvg)
 
 ---------
 
