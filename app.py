@@ -4,7 +4,7 @@ sys.path.insert(0, './addon')
 sys.path.insert(0, './config')
 sys.path.insert(0, './prediction')
 import getCondition
-import devfest_0
+import predict
 app = Flask(__name__)
 
 # @app.route('/pos',methods=['post','get'])
@@ -23,7 +23,7 @@ def latlng():
     if(not float(lat) or not float(lng)): return ''
     cond=getCondition.exec(float(lat),float(lng))
     print(cond)
-    yieldAmount=devfest_0.predict(crop,cond[0],cond[1])
+    yieldAmount=predict.predict(crop,cond[0],cond[1])
 
     yieldType=0 #0->low;1->normal;2->bumper
     if(yieldAmount>3000): yieldType=2
